@@ -9,7 +9,7 @@
                   Manufacturer="Wm. Barrett Simms"
                   Description="A nRF24L01Plus module"
                   InstanceName="nRF24L01Plus"
-                  Type="Gadgeteer.Modules.WBSimms.nRF24L01Plus"
+                  Type="Gadgeteer.Modules.WBSimms.NRF24L01Plus"
                   ModuleSuppliesPower="false"
                   HardwareVersion="1.0"
                   Image="Resources\Image.jpg"
