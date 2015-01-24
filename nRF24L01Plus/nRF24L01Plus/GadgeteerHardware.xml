@@ -4,17 +4,17 @@
     <!-- This module definition should be filled in.  Mouse over any attribute name to get more help about that attribute. -->
     <!-- The Unique ID is auto-generated and does not usually need to be modified. -->
     <!-- For file paths, do not use forward slash (/), use backslash (\) or it fails in Windows XP. -->
-    <ModuleDefinition Name="nRF24L01Plus"
+    <ModuleDefinition Name="NRF24L01Plus"
                   UniqueId="bd62544c-a478-4fb6-a69d-c4c9fe70db06"
                   Manufacturer="Wm. Barrett Simms"
-                  Description="A nRF24L01Plus module"
-                  InstanceName="nRF24L01Plus"
+                  Description="An nRF24L01Plus module"
+                  InstanceName="NRF24L01Plus"
                   Type="Gadgeteer.Modules.WBSimms.NRF24L01Plus"
                   ModuleSuppliesPower="false"
                   HardwareVersion="1.0"
                   Image="Resources\Image.jpg"
-                  BoardHeight="75"
-                  BoardWidth="125"
+                  BoardHeight="37"
+                  BoardWidth="63"
                   MinimumGadgeteerCoreVersion="2.42.500"
                   HelpUrl=""
       			>
@@ -29,9 +29,9 @@
         <!-- This lists the assemblies which provides the API to this module, i.e. the output assemblies of this template. ((1) in the list above) -->
         <!-- If you do not provide support for all of NETMF 4.1, 4.2 and 4.3, the relevant lines should be removed -->
         <!-- NB you should use the same name for the same assembly's NETMF 4.1, NETMF 4.2 and NETMF 4.3 versions, since this will make it easier for users to change framework versions -->
-        <Assembly MFVersion="4.1" Name="GTM.WBSimms.nRF24L01Plus"/>
-        <Assembly MFVersion="4.2" Name="GTM.WBSimms.nRF24L01Plus"/>
-        <Assembly MFVersion="4.3" Name="GTM.WBSimms.nRF24L01Plus"/>
+        <Assembly MFVersion="4.1" Name="GTM.WBSimms.NRF24L01Plus"/>
+        <Assembly MFVersion="4.2" Name="GTM.WBSimms.NRF24L01Plus"/>
+        <Assembly MFVersion="4.3" Name="GTM.WBSimms.NRF24L01Plus"/>
 
         <!-- If your module relies on another assembly, then list it here (and see the msm.wxs file since you need to include it in the installer too), e.g.: -->
         <!--
@@ -73,7 +73,7 @@
       <Sockets>
 
         <!-- This example socket is compatible with socket types XY which has electrical connections to pins 3 and 4 -->
-        <Socket Left="10" Top="10" Orientation="90" ConstructorOrder="1" TypesLabel="S">
+        <Socket Left="5" Top="10" Orientation="180" ConstructorOrder="1" TypesLabel="S">
           <Types>
             <Type>S</Type>
           </Types>
@@ -84,7 +84,7 @@
         </Socket>
 
         <!-- This example socket is compatible with socket type S, it is optional, and it has electrical connections to pins 3,4,5,7,8,9, with 7,8,9 being shareable (SPI bus) -->
-        <Socket Left="30" Top="10" Orientation="90" ConstructorOrder="2" TypesLabel="S" Optional="true">
+        <Socket Left="5" Top="10" Orientation="180" ConstructorOrder="2" TypesLabel="S" Optional="true">
           <Types>
             <Type>S</Type>
           </Types>

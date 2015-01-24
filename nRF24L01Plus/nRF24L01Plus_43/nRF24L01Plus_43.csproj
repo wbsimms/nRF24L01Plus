@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Gadgeteer.Modules.WBSimms</RootNamespace>
-    <AssemblyName>GTM.WBSimms.nRF24L01Plus</AssemblyName>
+    <AssemblyName>GTM.WBSimms.NRF24L01Plus</AssemblyName>
     <TargetFrameworkVersion>v4.3</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <!--Identify this as a MicroFramework, CSharp project-->
@@ -29,7 +29,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\GTM.WBSimms.nRF24L01Plus.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\GTM.WBSimms.NRF24L01Plus.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -38,7 +38,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\GTM.WBSimms.nRF24L01Plus.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\GTM.WBSimms.NRF24L01Plus.xml</DocumentationFile>
   </PropertyGroup>
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>

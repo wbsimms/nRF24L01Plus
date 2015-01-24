@@ -14,7 +14,7 @@
   -->
 
   <!-- SafeModuleName should match the name printed on the module PCB, without any spaces/punctuation. -->
-  <?define SafeModuleName = "nRF24L01Plus" ?>
+  <?define SafeModuleName = "NRF24L01Plus" ?>
 
   <!-- SafeManufacturer should match the manufacturer name printed on the module PCB, without any spaces/punctuation. -->
   <?define SafeManufacturer = "WBSimms" ?>
@@ -29,7 +29,7 @@
 
   <!-- No need to change anything below this line. -->
   <?define OutputFileName = "GTM.$(var.SafeManufacturer).$(var.SafeModuleName)"?>
-  <?define ProjectPath = "nRF24L01Plus" ?>
+  <?define ProjectPath = "NRF24L01Plus" ?>
 
   <!-- These two should be copied over if upgrading from an older template -->
   <?define guid_msi_upgrade_code =  "721c53de-581d-41aa-9e70-2b2d3c8c1ab3" ?>

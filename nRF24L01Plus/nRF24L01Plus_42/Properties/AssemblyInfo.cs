@@ -29,11 +29,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("GTM.WBSimms.nRF24L01Plus")]
-[assembly: AssemblyDescription("Driver for nRF24L01Plus module made by Wm. Barrett Simms for Microsoft .NET Gadgeteer")]
+[assembly: AssemblyTitle("GTM.WBSimms.NRF24L01Plus")]
+[assembly: AssemblyDescription("Driver for NRF24L01Plus module made by Wm. Barrett Simms for Microsoft .NET Gadgeteer")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Wm. Barrett Simms")]
-[assembly: AssemblyProduct("nRF24L01Plus")]
+[assembly: AssemblyProduct("NRF24L01Plus")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

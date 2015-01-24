@@ -36,7 +36,9 @@
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="GadgeteerHardware.xml" />
+    <None Include="GadgeteerHardware.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="ReadMe.txt" />
     <None Include="msm.wxs" />
     <None Include="en-us.wxl" />
@@ -48,9 +50,18 @@
     <None Include="Image.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\nRF24L01Plus_41\nRF24L01Plus_41.csproj" />
-    <ProjectReference Include="..\nRF24L01Plus_42\nRF24L01Plus_42.csproj" />
-    <ProjectReference Include="..\nRF24L01Plus_43\nRF24L01Plus_43.csproj" />
+    <ProjectReference Include="..\nRF24L01Plus_41\NRF24L01Plus_41.csproj">
+      <Project>{3A257282-954C-4917-B78F-A97CB349C935}</Project>
+      <Name>NRF24L01Plus_41</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nRF24L01Plus_42\NRF24L01Plus_42.csproj">
+      <Project>{29347E4B-ACE6-49BE-8D86-E3C589D2A19E}</Project>
+      <Name>NRF24L01Plus_42</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nRF24L01Plus_43\NRF24L01Plus_43.csproj">
+      <Project>{EC175579-1113-47EC-99AA-5D51D9B24B47}</Project>
+      <Name>NRF24L01Plus_43</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(WixTargetsPath)" />
   <PropertyGroup>
